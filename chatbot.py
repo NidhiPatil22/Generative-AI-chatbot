@@ -25,8 +25,8 @@ for message in st.session_state.chat_history:
 
 # llm initiate
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
-    temperature=0.0,
+    model="openai/gpt-oss-20b",
+    temperature=0
 )
 
 # input box
